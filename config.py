@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 20579940
+API_HASH = "6fc0ea1c8dacae05751591adedc177d7"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7811942229:AAFiq5KXd1jEHCb-1Cu3_PXi-6xpqGySLPY"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb://Dx:Dx@<hostname>/?ssl=true&replicaSet=atlas-qyujv7-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002308109915
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 5136260272
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/DARK_H4CK3R_369"
+SUPPORT_GROUP = "https://t.me/DxSimu"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,9 +77,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/2eccedeb1fe5f7c289655-c4b1993e1bb3a7bbac.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/2eccedeb1fe5f7c289655-c4b1993e1bb3a7bbac.jpg"
 
 PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
